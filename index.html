@@ -1,0 +1,33 @@
+<!-- to use, simply type this code into the terminal below: python -m http.server -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>ChatGPT Example</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      Email Response Generator
+    </header>
+    <div class="main">
+      <form id="form">
+        Paste the email below that you would like an automated response for:<br> <textarea name="email" class="custom-textarea"></textarea><br>
+        Provide context for the above email to receive a more accurate AI response:<br> <textarea name="context" class="custom-textarea"></textarea><br>
+        <label for="response">Response Style:</label><br>
+        <select name="response" id="response">
+        <option value="Business Professional">Business Professional</option>
+        <option value="Poetic">Poetic</option>
+        <option value="Harsh">Harsh</option>
+        </select>
+        <input type="submit">
+      </form>
+
+      AI Response: <br><textarea id="chatgpt" class="custom-textarea" readonly></textarea><br>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

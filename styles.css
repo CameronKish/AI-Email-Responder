@@ -1,0 +1,82 @@
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 0 10px 0;
+  /* add other styles such as width, height, background color, etc. */
+  height: 40px;
+  background-color: rgb(0, 11, 73);
+  color: white;
+  border-radius: 0 0 10px 10px;
+  font-size: 20px;
+}
+
+
+.custom-textarea { 
+  border: thick double #1aa08e;
+  padding: 20px; 
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 25px;
+  margin: 10px 0px 25px 50px;
+  width: 85%;
+  font-size: 20px;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+select {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  width: 250px;
+  margin: 10px 0px 25px 50px;
+}
+
+select:hover {
+  background-color: #e6e6e6;
+  border-color: #999;
+}
+
+* {
+  font-family: 'Roboto', sans-serif; 
+  margin: 0;
+  
+}
+
+body {
+  background-image: url(mail.png), linear-gradient(#1aa083, #9198e5);
+  background-size: 15%, 100%;
+  background-repeat: repeat, cover;
+  background-position: left top, 0 0;
+  padding-top: 0px; /* add the same height as the header */
+  /* background: red, url(Logo.jpg) right top repeat; */
+  /*background: rgb(112, 250, 255);*/
+  font-size: 20px;
+  text-align: center;
+}
+
+.main {
+  margin:0 auto;
+  max-width: 1000px;
+  background: #fff;
+  padding: 30px 0px;
+  border-radius: 10% 25%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/*img {
+  float: right;
+  width: 768px;
+  height: 768px;
+  border: 2px solid blue;
+  margin: 10px;
+}*/
