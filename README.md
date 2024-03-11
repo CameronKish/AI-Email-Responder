@@ -12,7 +12,7 @@ After doing that, you will be able to have ChatGPT write responses to emails wit
 Please review the "Cold Weather Tips" below to prepare for the upcoming winter freeze! 
 Keep garage doors closed if there are water supply lines in the garage. Open kitchen and bathroom cabinet doors to allow warmer air to circulate around the plumbing. When the weather is very cold outside, let the cold water drip from the faucet served by exposed pipes. Running water through the pipe--even at a trickle—helps prevent pipes from freezing. Keep the thermostat set to the same temperature both during the day and at night. By suspending the use of lower nighttime temperatures, you may incur a higher heating bill, but you can prevent a much more costly repair job if pipes freeze and burst. If you will be going away during cold weather, leave the heat on in your home, set to a temperature no lower than 35° F."
 
-**2) Context:** "I believe the sender accidentally put 35 degrees but it should be much higher."
+**2) User Context:** "I believe the sender accidentally put 35 degrees but it should be much higher."
 
 **3) AI Response:**
 
